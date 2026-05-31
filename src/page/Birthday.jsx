@@ -10,10 +10,12 @@ import MusicPlayer from "../components/music/MusicPlayer";
 
 import img1 from "../assets/utibe1.jpg";
 import img2 from "../assets/utibe2.jpg";
-// import img3 from "../assets/utibe3.jpg";
-// import img4 from "../assets/utibe4.jpg";
+import img3 from "../assets/utibe3.jpg";
+import img4 from "../assets/utibe4.jpg";
+import img5 from "../assets/utibe5.jpg";
+import img6 from "../assets/utibe6.jpg";
 
-const images = [img1, img2];
+const images = [img1, img2, img3, img4, img5, img6];
 
 const BirthdayPage = () => {
 
