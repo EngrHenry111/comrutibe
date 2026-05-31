@@ -1,0 +1,19 @@
+.particle{
+  position:absolute;
+  width:6px;
+  height:6px;
+  background:white;
+  border-radius:50%;
+  opacity:.7;
+  animation:floatParticle 10s linear infinite;
+}
+
+@keyframes floatParticle{
+  from{
+    transform:translateY(100vh);
+  }
+
+  to{
+    transform:translateY(-100vh);
+  }
+}

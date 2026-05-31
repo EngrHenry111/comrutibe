@@ -1,0 +1,20 @@
+.star{
+  position:absolute;
+  color:white;
+  animation:twinkle 2s infinite;
+}
+
+@keyframes twinkle{
+
+  0%{
+    opacity:.2;
+  }
+
+  50%{
+    opacity:1;
+  }
+
+  100%{
+    opacity:.2;
+  }
+}
